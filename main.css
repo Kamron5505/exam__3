@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quantico", serif;
+}
+
+.container {
+    width: 1273px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #272C3D;
+    box-shadow: 0px 0px 10px 10px #00000080;
+    padding: 20px 0;
+}
+
+ul {
+    display: flex;
+    gap: 26px;
+}
+
+ul li a {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    color: #FF9C28;
+    transition: 0.4s;
+}
+
+.big {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    background-color: #404864;
+    border: 2px solid #404864;
+    width: 242px;
+    height: 30px;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+}
+select:focus{
+    outline: none;
+}
+
+.forms {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    position: relative;
+}
+
+select {
+    background-color: #00000080;
+    color: #FFFFFFCC;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 165px;
+
+}
+
+.vector {
+    position: absolute;
+    right: 207px;
+}
+
+.img {
+    background-image: url(./Bg\ \(1\).png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h2{
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.container2{
+    width: 1189px;
+    margin: 0 auto;
+}
+.sect{
+    background-color: #000000;
+    padding-top: 45px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.sect_2{
+  background-color:#1B1E27 ;
+}
+h3{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 61px;
+    padding-bottom: 30px;
+}
+.right p {
+    color: #BFBFBF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 15px;
+    width: 323px;
+}
+
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 149px;
+
+}
+.container3{
+    width: 740px;
+    margin:  0 auto;
+}
+footer{
+    background-color: #272C3D;
+    box-shadow: 0px 0px 10px 10px #00000080;
+    padding: 20px 0;
+}
+.contents{
+    display: flex;
+
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
